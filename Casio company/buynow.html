@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+body{
+ background-image:url("casio.jpg")
+ }
+ .header {
+  padding: 30px;
+  text-align: center;
+    color:#2894EE;
+  font-size:40px;
+}
+ </style>
+ <div class="header">
+<h1>ORDER HERE</h1><hr>
+</div>
+ <div class="forms">
+
+<form action="order.html" target="_blank">
+  <label for="name">NAME:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="no." maxlength="4">CONTACT NUMBER:</label><br>
+  <input type="text" id="no." name="no."><br>
+  <label for="em">E-Mail:</label><br>
+  <input type="text" id="em" name="em"><br>
+  
+<h4>GENDER:</h4>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <h2>Select Product:</h2>
+  <select name="wtype">
+<option value="1">G-SHOCK</option>
+<option value="2">BABY-G</option>
+<option value="3">EDIFICE</option>
+<option value="4">CASIO Vintage</option>
+<option value="5">PRO TREK SMART</option>
+<option value="6">PRO TREK</option>
+<option value="7">Radio controlled</option>
+<option value="8">CASIO Sports</option>
+
+</select><br><br>
+
+ <label for="add">DELIVERY ADDRESS:</label><br>
+  <textarea type="text" id="add" name="add" cols="50" rows="6"></textarea>
+  <br><br><br>
+<button style="background-color:cyan";type="submit">Confirm</button>
+  
+
+ 
+</form>
+
+</div>
+ </html>
